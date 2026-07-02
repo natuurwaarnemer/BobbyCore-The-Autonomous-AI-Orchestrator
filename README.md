@@ -1,7 +1,7 @@
 BobbyCore — The Autonomous AI Orchestrator
 Hello Bobby is een open‑source AI‑ecosysteem dat bestaat uit drie volledig gescheiden componenten:
 
-BobbyBuddy — het fysieke wake‑word apparaat (microfoon, speaker, LED‑ring, display)
+BobbyBuddy — het fysieke wake‑word apparaat (microfoon, speaker, LCD display)
 
 BobbyCore — het autonome AI‑brein dat intents begrijpt, entiteiten zoekt en acties uitvoert
 
@@ -37,22 +37,37 @@ modulair uitbreidbaar is
 
 BobbyCore is niet afhankelijk van HA en kan uitbreiden naar andere systemen.
 
-🟩 BobbyBuddy
-Het fysieke apparaat:
+🟩 BobbyBuddy (Wake‑Word Device)
+BobbyBuddy is het fysieke apparaat dat de interactie met de gebruiker verzorgt.
+Het bevat:
 
 omni‑microfoon
 
-wake‑word detectie
+wake‑word detectie (“Hello Bobby”)
 
-luidsprekers
+luidsprekers voor audio‑feedback
 
-LCD display
+LCD‑scherm voor visuele feedback
 
 wifi/ethernet
 
-kleine CPU (Pi Zero / Pi 5 / ESP32 / Jetson Nano)
+compacte CPU (Pi Zero / Pi 5 / ESP32 / Jetson Nano)
 
-Stuurt audio naar BobbyCore en speelt antwoorden af.
+Het LCD‑scherm toont:
+
+status (“Luistert…”)
+
+intent‑resultaten
+
+foutmeldingen
+
+contextvragen
+
+animaties tijdens wake‑word
+
+systeeminformatie
+
+BobbyBuddy stuurt audio naar BobbyCore en toont de resultaten van acties.
 
 🎯 Doel van het project
 Hello Bobby wil een lokaal, open, privacy‑vriendelijk AI‑apparaat zijn dat:
@@ -79,7 +94,7 @@ Omni‑microfoon
 
 Wake‑word detectie (“Hello Bobby”)
 
-LED‑feedback
+LCD‑feedback
 
 Audio‑transport naar BobbyCore
 
