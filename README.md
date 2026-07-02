@@ -69,6 +69,12 @@ systeeminformatie
 
 BobbyBuddy stuurt audio naar BobbyCore en toont de resultaten van acties.
 
+we werken meerdere hardware varianten uit 
+Bobby Devices (Ecosystem)
+BobbyBuddy — full device (LCD + audio)
+BobbyMini — small device (audio only)
+BobbyDot — micro‑node (input only)
+
 🎯 Doel van het project
 Hello Bobby wil een lokaal, open, privacy‑vriendelijk AI‑apparaat zijn dat:
 
